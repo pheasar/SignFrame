@@ -1,0 +1,26 @@
+﻿<UserControl x:Class="SignFrame.TweetItem"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SignFrame"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300" Width="575" Height="265">
+    <Grid x:Name="grid" Background="Black">
+        <Image x:Name="ProfileImage" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="50" Margin="3,3,0,0" Source="Resources/retweet_a.png"/>
+        <Label x:Name="NameLabel" Content="Name" HorizontalAlignment="Left" Margin="58,3,0,0" VerticalAlignment="Top" Width="42" Height="15" Foreground="#FFFF9600" FontFamily="Meiryo UI" Background="Black" Padding="0"/>
+        <Label x:Name="TextLabel" Content="Text" HorizontalAlignment="Left" Margin="58,23,0,0" VerticalAlignment="Top" Background="Black" Foreground="White" Width="420" Height="15" FontFamily="Meiryo UI" MaxWidth="420" MaxHeight="500" Padding="0"/>
+        <Image x:Name="ReplyButton" HorizontalAlignment="Left" Height="20" Margin="483,10,0,0" VerticalAlignment="Top" Width="20" Source="Resources/reply_a.png"/>
+        <Image x:Name="RetweetButton" HorizontalAlignment="Left" Height="20" Margin="514,10,0,0" VerticalAlignment="Top" Width="20" Source="Resources/retweet_a.png"/>
+        <Image x:Name="FavoriteButton" HorizontalAlignment="Left" Height="20" Margin="545,10,0,0" VerticalAlignment="Top" Width="20" Source="Resources/favorite_a.png"/>
+        <Label x:Name="TimeLabel" Content="Time" HorizontalAlignment="Left" Margin="58,43,0,0" VerticalAlignment="Top" Background="Black" Foreground="White" Padding="0" Height="14" Width="34" FontSize="10.667" FontFamily="Meiryo UI"/>
+        <Image x:Name="ImageBox1" HorizontalAlignment="Left" Height="80" Margin="58,62,0,0" VerticalAlignment="Top" Width="150" Source="Resources/retweet_a.png"/>
+        <Image x:Name="ImageBox2" HorizontalAlignment="Left" Height="80" Margin="213,62,0,0" VerticalAlignment="Top" Width="150" Source="Resources/retweet_a.png"/>
+        <Image x:Name="ImageBox3" HorizontalAlignment="Left" Height="80" Margin="58,147,0,0" VerticalAlignment="Top" Width="150" Source="Resources/retweet_a.png"/>
+        <Image x:Name="ImageBox4" HorizontalAlignment="Left" Height="80" Margin="213,147,0,0" VerticalAlignment="Top" Width="150" Source="Resources/retweet_a.png" RenderTransformOrigin="0,0"/>
+        <Image x:Name="RetweetProfileImage" HorizontalAlignment="Left" Height="30" Margin="0,234,0,0" VerticalAlignment="Top" Width="30" Source="Resources/retweet_a.png"/>
+        <Label x:Name="RetweetNameLabel" Content="Name" HorizontalAlignment="Left" Margin="35,239,0,0" VerticalAlignment="Top" Background="Black" Foreground="#FFFF9600" Padding="0"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="50" Margin="107,74,0,0" VerticalAlignment="Top" Width="50" Source="Resources/start.png"/>
+
+    </Grid>
+</UserControl>

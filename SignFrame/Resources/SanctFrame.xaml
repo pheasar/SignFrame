@@ -1,0 +1,49 @@
+﻿<DrawingGroup xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <DrawingGroup x:Name="DrawingLayer">
+    <DrawingGroup.ClipGeometry>
+      <RectangleGeometry Rect="0,0,800.00001,600.00001" />
+    </DrawingGroup.ClipGeometry>
+    <DrawingGroup x:Name="layer2">
+      <DrawingGroup x:Name="layer1_0" Transform="1,0,0,1,-0.09155119,-452.33749">
+        <GeometryDrawing x:Name="path4696_39" Brush="#FFF92500">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFFFFFFF" Thickness="2" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="EvenOdd" Figures="M0.08984375,452.33872L5.09375,477.34345 10.09375,477.34345 15.09375,492.34345 30.09375,492.34345 30.09375,497.34345 35.09375,497.34345 35.09375,597.33872 65.09375,597.33872 65.09375,497.34345 70.09375,497.34345 70.09375,492.34345 730.08984,492.33945 730.08984,497.33945 735.08984,497.33945 735.08984,597.33472 765.08984,597.33472 765.08984,497.33945 770.08984,497.33945 770.08984,492.33945 785.08984,492.33945 790.08984,477.33945 795.08984,477.33945 800.08984,452.33472C800.08984,452.33472 533.46483,462.34206 400.08984,462.34206 266.71485,462.34206 0.08984375,452.33862 0.08984375,452.33862z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="path4698">
+          <GeometryDrawing.Brush>
+            <LinearGradientBrush StartPoint="50,597.36218" EndPoint="50,1052.3622" MappingMode="Absolute" Opacity="1">
+              <GradientStop Color="#FFF92500" Offset="0" />
+              <GradientStop Color="#FFFF5046" Offset="1" />
+            </LinearGradientBrush>
+          </GeometryDrawing.Brush>
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFFFFFFF" Thickness="2" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="EvenOdd" Figures="M15.089844,602.33872L15.089844,632.33872 35.089844,632.33872 35.089844,1032.3388 15.089844,1032.3388 15.089844,1052.3388 85.089844,1052.3388 85.089844,1032.3388 65.089844,1032.3388 65.089844,632.33872 735.08984,632.33872 735.08984,1032.3388 715.08984,1032.3388 715.08984,1052.3388 785.08984,1052.3388 785.08984,1032.3388 765.08984,1032.3388 765.08984,632.33872 785.08984,632.33872 785.08984,602.33872 770.08984,602.33872 770.08984,597.33872 730.0907,597.34272 730.0887,602.33663 70.086078,602.33363 70.091378,597.34266 30.089844,597.33866 30.089844,602.33866z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="rect4700" Brush="#FFF92500">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFF92500" Thickness="2" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <RectangleGeometry RadiusX="0" RadiusY="0" Rect="737.0916,595.3375,26,4.0001" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="rect4706" Brush="#FFF92500">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFF92500" Thickness="2" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <RectangleGeometry RadiusX="0" RadiusY="0" Rect="37.0916,595.3375,26,4" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+      </DrawingGroup>
+    </DrawingGroup>
+  </DrawingGroup>
+</DrawingGroup>
