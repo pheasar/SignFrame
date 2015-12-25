@@ -12,5 +12,3 @@ namespace SignFrame
 
 	}
 }
-
-// test
